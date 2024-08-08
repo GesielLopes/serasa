@@ -73,9 +73,10 @@ $ docker compose up -d
 ------------
 ## 📕 Using the project
 
-1. Create buckets RAW and REFINED in minio
-2. Execute workflow in airflow
-3. Access teh API
+1. Download the train.csv file in https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data and save it in the data folder
+2. Create buckets RAW and REFINED in minio
+3. Execute dag in airflow
+4. Access the API
 
 ------------
 ## 📕 Using the api
