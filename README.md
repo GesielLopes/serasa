@@ -26,7 +26,7 @@ The project was developed with:
 
 ### 🏗️ Proposed architecture for solution the challenge
 
-<img src="images/architecture.png" width="60%"/><br><br>
+<img src="images/architecture.png" /><br><br>
 
 ### 📁 Project Structure
 
