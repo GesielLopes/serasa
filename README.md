@@ -24,11 +24,11 @@ The project was developed with:
 ------------
 ## 🔖 Proposed solution to the challenge
 
-### 🏗️ Proposed architecture for solution the challenge
+### 🏗️ Proposed architecture
 
 <img src="images/architecture.png" /><br><br>
 
-### 📁 Project Structure
+### 📁 Project structure
 
 ```
 taxi-fare/
