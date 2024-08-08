@@ -74,9 +74,11 @@ $ docker compose up -d
 ## 📕 Using the project
 
 1. Download the train.csv file in https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data and save it in the data folder
-2. Create buckets RAW and REFINED in minio
-3. Execute dag in airflow
-4. Access the API
+2. Download the aws-java-sdk-bundle-1.12.262.jar in https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bundle/1.12.262 and save it in the jars folder
+2. Download the hadoop-aws-3.3.4.jar in https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws/3.3.4 and save it in the jars folder
+3. Create buckets RAW and REFINED in minio
+4. Execute dag in airflow
+5. Access the API
 
 ------------
 ## 📕 Using the api

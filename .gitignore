@@ -2,6 +2,7 @@
 data/
 minio_data/
 postgre_data/
+jars/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
