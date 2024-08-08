@@ -62,23 +62,35 @@ Clone the project:
 $ git clone https://github.com/GesielLopes/taxi-fare.git
 ```
 
-Acess the folder and execute docker compose to run the data project:
+Access the project folder:
 
 ```bash
 $ cd taxi-fare
+```
 
+Download the train.csv file in https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data and save it in the data folder
+
+Download the aws-java-sdk-bundle-1.12.262.jar in https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bundle/1.12.262 and save it in the jars folder
+
+Download the hadoop-aws-3.3.4.jar in https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws/3.3.4 and save it in the jars folder
+
+Execute docker compose to run the data project:
+```bash
 # Execute docker compose
 $ docker compose up -d
 ```
 ------------
 ## 📕 Using the project
 
-1. Download the train.csv file in https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data and save it in the data folder
-2. Download the aws-java-sdk-bundle-1.12.262.jar in https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bundle/1.12.262 and save it in the jars folder
-2. Download the hadoop-aws-3.3.4.jar in https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws/3.3.4 and save it in the jars folder
-3. Create buckets RAW and REFINED in minio
-4. Execute dag in airflow
-5. Access the API
+1. Access MINIO web client: 
+    - localhost:9000
+    - user and password 'minioadmin'
+    - Create buckets RAW and REFINED in minio
+2. Access airflow web client:
+    - localhost:8081
+    - user and password 'airflow'
+    - Execute dag taxi_raides_dag
+3. Access the API
 
 ------------
 ## 📕 Using the api
