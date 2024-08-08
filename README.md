@@ -128,6 +128,7 @@ Accessing API Swagger via browser. Just access via url:
 - Create the project's unit tests
 - Automate bucket creation
 - Automate data flow in the API when refined data does not exist
+- Add data science environment
 - Feel free to open issues or submit pull requests for improvements or fixes
 
 ------------
