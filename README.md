@@ -87,7 +87,7 @@ $ docker compose up -d
     - username and password 'minioadmin'
     - Create buckets RAW and REFINED for manipulete files like a AWS S3 🍷.
 2. Access airflow web client:
-    - lhttp://localhost:8081
+    - http://localhost:8081
     - username and password 'airflow'
     - Execute dag taxi_raides_dag
 3. Access the API
