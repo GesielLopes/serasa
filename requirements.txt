@@ -1,0 +1,12 @@
+fastapi
+pandas
+pyspark
+minio
+pytest
+pytest-mock
+kafka-python-ng
+pyarrow
+apache-airflow
+pytest
+pytest-cov
+ruff
